@@ -1,9 +1,11 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { ArrowRightLeft} from "lucide-react";
+import { Lock } from "lucide-react";
+import { BriefcaseBusiness } from "lucide-react";
+import { GalleryVertical } from "lucide-react"
+import { Mail } from "lucide-react";
+import { Phone} from "lucide-react";
+import { MapPin } from "lucide-react"
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -12,145 +14,126 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+export const services = [
+  {
+    title: "Domain Brokerage:",
+    description:
+      "Expert assistance in buying and selling high-value domain names.",
+  },
+  {
+    title: "Domain Valuation:",
+    description:
+      "Accurate appraisal services to determine the worth of a domain.",
+  },
+  {
+    title: "Consultation:",
+    description:
+      "Professional advice on domain strategy and brand alignment.",
+  }
+];
+
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "AboutUs", href: "#AboutUs" },
+  { label: "Services", href: "#Services" },
+  { label: "Feature", href: "#Features" },
+  { label: "Testimonials", href: "#Testimonials" },
+  { label: "ContactUs", href: "#ContactUs" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Jane Doe",
+    company: "CEO of TechStart",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Namezar made the daunting task of finding the right domain incredibly easy. Their team's expertise is unparalleled.",
   },
   {
     user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    company: "FinSoft Solutions",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "Namezar’s expertise was invaluable in acquiring a premium domain. Their market knowledge is unmatched.",
   },
   {
     user: "David Johnson",
-    company: "Quantum Innovations",
+    company: "Entrepreneur",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Namezar helped me sell my domain quickly and at a great price. Highly recommend their service!",
   },
   {
     user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    company: "BrandX",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "They understood my business needs and found a domain that fit perfectly. Fantastic service!",
   },
   {
     user: "Michael Wilson",
-    company: "Visionary Creations",
+    company: "EcomWave",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "The entire process was easy and stress-free, thanks to Namezar’s professional brokers.",
   },
   {
     user: "Emily Davis",
-    company: "Synergy Systems",
+    company: " ShopSphere",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "Namezar’s transparency and reliability set them apart. I found the perfect domain for my business..",
   },
 ];
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Handshake  />,
+    text: "Expert Guidance",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Our experienced brokers provide personalized consultations to help you navigate the domain buying and selling process effortlessly.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <GalleryVertical />,
+    text: "Extensive Domain Portfolio",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Access a vast selection of premium domains across various industries, tailored to fit your brand’s identity.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <BriefcaseBusiness />,
+    text: "Valuation Services",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Accurate appraisal services to determine the worth of domain names, ensuring you make informed decisions",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Handshake />,
+    text: "Negotiation Expertise",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Skilled negotiators work to secure the best terms and prices for your desired domains, maximizing your investment.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <ArrowRightLeft />,
+    text: "Seamless Transactions",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "We handle all aspects of the domain acquisition process, from initial inquiry to final transfer, ensuring a hassle-free experience",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <Lock />,
+    text: "Confidentiality Assurance",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Your privacy is our priority. All transactions and communications are handled with the utmost confidentiality.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "1. Discover:",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Identify your domain needs with our experts.",
   },
   {
-    title: "Review code without worry",
+    title: "2. Negotiate:",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "We handle discussions to secure the best terms.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "3. Acquire:",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-  {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
-];
-
-export const pricingOptions = [
-  {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
-  },
+      "Seamless transfer of domain ownership to you.",
+  }
 ];
 
 export const resourcesLinks = [
@@ -162,17 +145,68 @@ export const resourcesLinks = [
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#Features", text: "Features" },
+  { href: "#AboutUs", text: "AboutUs" },
+  { href: "#ContactUs", text: "ContactUs" },
+  { href: "#Faqs", text: "FAQs" },
+  { href: "#Services", text: "Services" },
 ];
 
 export const communityLinks = [
   { href: "#", text: "Events" },
   { href: "#", text: "Meetups" },
   { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
+];
+
+export const contactDetails = [
+  {
+    icons: <Mail />,
+    description:
+      "info@namezar.com"
+  },
+  {
+    icons: <Phone />,
+    description:
+      "+1 (800) 123-4567"
+  },
+  {
+    icons: <MapPin />,
+    description:
+      "1234 Domain Lane, Web City, WC 56789"
+  },
+  
+];
+
+export const faqs = [
+  {
+    question: "How does Namezar select premium domains?",
+    answer:
+      "At Namezar, we use a combination of market analysis, keyword research, and brand potential to curate domain names that provide high value to businesses. Our team ensures that the domains are memorable, easy to spell, and aligned with current industry trends.",
+  },
+  {
+    question: "What is a domain brokerage service?",
+    answer:
+      "A domain brokerage service connects buyers and sellers of high-value domain names. At Namezar, our brokers represent you throughout the process to ensure you get the best deal, whether you're buying or selling a premium domain.",
+  },
+  {
+    question: " How do I know the value of a domain?",
+    answer:
+      "We offer professional domain valuation services where we assess factors like keyword relevance, traffic potential, market demand, and historical sales data to determine the worth of your domain.",
+  },
+{
+  question:"Can Namezar help me sell my domain?",
+ answer:
+ "Absolutely! We assist in selling your domain by leveraging our network and marketing channels to connect you with potential buyers. Our brokers will negotiate on your behalf to get the best possible price."
+},
+{
+  question:"How long does it take to complete a domain purchase?",
+  answer:"The timeline depends on the complexity of the deal. Typically, a straightforward transaction can take anywhere from a few days to a couple of weeks."
+
+},
+{
+  question:"Is there any confidentiality in the domain acquisition process?",
+  answer:"Yes, at Namezar, we prioritize your privacy and confidentiality throughout the entire transaction. All negotiations are handled discreetly to protect your business interests."
+
+},
 ];
