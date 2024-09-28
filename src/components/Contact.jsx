@@ -31,9 +31,9 @@ const Contact = () => {
   };
 
     return (
-        <section className="flex justify-center items-center min-h-[100vh]">
-          <form onSubmit={onSubmit} className='max-w-[600px] w-full p-6 shadow-lg text-black m-6 bg-blue-200 rounded-lg'>
-              <h2 className='text-4xl text-blue-700 text-center'>Contact Form</h2>
+        <section className="flex justify-center items-center">
+          <form onSubmit={onSubmit} className='max-w-[600px] w-full p-6 shadow-lg text-black mt-6 mb-6 bg-blue-200 rounded-lg'>
+              <h2 className='text-2xl sm:text-3xl lg:text-5xl text-blue-700 text-center font-semibold'>Contact Us</h2>
               <div className='mt-10'>
                   <label>Full Name</label>
                   <input type="text" className='w-full h-2/3 transparent border-white rounded-sm p-4 rounded-sm' placeholder='Enter your name'  name='name' required/>

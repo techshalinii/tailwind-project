@@ -3,9 +3,9 @@ import{features} from "../constants"
 
 const FeatureSection = () => {
   return (
-    <div id='Features' className="relative mt-10 border-neutral-800 min-h-[600px]">
+    <div id='Features' className="relative  border-neutral-800 min-h-[600px]">
     <div className="text-center">
-    <h2 className="text-2xl sm:text-3xl lg:text-5xl text-center mt-6 tracking-wide">
+    <h2 className="text-2xl sm:text-3xl lg:text-5xl text-center text-black-500 tracking-wide font-bold">
         Features
       </h2>
     </div>
@@ -17,7 +17,7 @@ const FeatureSection = () => {
               {feature.icon}
             </div>
             <div>
-              <h5 className="mt-1 mb-6 text-xl text-blue-700">{feature.text}</h5>
+              <h5 className="mt-1 mb-6 text-xl text-blue-700 font-semibold">{feature.text}</h5>
               <p className="text-md p-2 mb-10 lg:mb-20 text-neutral-500">
                 {feature.description}
               </p>

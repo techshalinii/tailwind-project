@@ -3,9 +3,9 @@ import{contactDetails} from "../constants"
 
 const ContactUs = () => {
   return (
-    <div id='ContactUs' className="relative mt-20 min-h-[50px]">
+    <div id='ContactUs' className="relative min-h-[50px] mt-10">
     <div className="text-center">
-    <h2 className="text-2xl sm:text-3xl lg:text-5xl text-center mt-6 tracking-wide">
+    <h2 className="text-2xl sm:text-3xl lg:text-5xl text-center mt-6 tracking-wide font-bold">
         Contact
         <span className="bg-gradient-to-r from-blue-500 to-blue-800  text-transparent bg-clip-text"> 
                 {" "}  Us
@@ -20,7 +20,7 @@ const ContactUs = () => {
               {contactDetails.icons}
             </div>
             <div>
-              <h5 className="mt-1 mb-6 text-xl">{contactDetails.description}</h5>
+              <h5 className="mt-1 mb-6 text-xl font-semibold">{contactDetails.description}</h5>
             </div>
           </div>
         </div>
